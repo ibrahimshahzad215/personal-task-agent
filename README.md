@@ -24,12 +24,18 @@ This project uses the Groq API to process user instructions and helps manage tas
 ```
 personal-task-agent/
 │
-├── agent.py          # Main AI agent logic
-├── config.py         # Configuration settings
-├── .env              # Environment variables (not uploaded)
-├── .gitignore        # Ignored files
-├── requirements.txt  # Project dependencies
-└── README.md         # Project documentation
+├── agent.py # Main AI agent logic
+├── config.py # Configuration settings
+├── tools.py # Agent tools and functions
+├── requirements.txt # Project dependencies
+├── README.md # Project documentation
+│
+├── .env # Environment variables (not uploaded)
+├── .env.example # Example environment configuration
+├── .gitignore # Ignored files
+│
+├── logs/ # Agent logs
+└── notes/ # Saved notes/data
 ```
 
 ## ⚙️ Installation & Setup
